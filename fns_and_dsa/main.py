@@ -18,7 +18,7 @@ def main():
             pass
         elif choice == '2':
             # Prompt for and remove an item
-            remove_item = (shopping_list,input("Enter item to remove: "))
+            remove_item(shopping_list, input("Enter item to remove: "))
             pass
         elif choice == '3':
             # Display the shopping list
