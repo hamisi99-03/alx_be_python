@@ -14,4 +14,4 @@ elif scale == 'F':
     converted = convert_to_celsius(float(temperature))
     print(f"{temperature}°F is {converted}°C")
 else:
-    print("Invalid temperature.Please enter a numeric value")
+    print("Invalid temperature. Please enter a numeric value")
